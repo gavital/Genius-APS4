@@ -55,3 +55,29 @@ O brinquedo Genius, com seus 3 tipos de jogos e 4 níveis de dificuldade.
 Somente serão atribuídos pontos extras ao trabalho se a nota original for maior ou igual a 7.
 * Melhor interface (somente um trabalho): 2pts;
 * Efeitos Sonoros: 1pt.
+
+#Como vamos fazer?
+4 botões (obvio hahaha)
+
+### 1. Repita a sequência
+*Existe um limite para as jogadas ou o jogo continua até o jogador errar?!*
+* Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
+** Armazena a sequência random
+** Auxiliar que armazena a sequência de jogada
+_Alterar o botão para indicar qual foi pressionado_
+_Comparar os vetores a cada jogada_
+
+### 2. Crie sua própria sequência
+* Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
+** Armazena a sequência random
+** Auxiliar que armazena a sequência de jogada
+_Alterar o botão para indicar qual foi pressionado_
+_Comparar os vetores a cada jogada_
+
+### 3. Repita a sequência com tempo limitado ao tamanho máximo da sequencia em segundos
+* Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
+** Armazena a sequência random
+** Auxiliar que armazena a sequência de jogada
+_Alterar o botão para indicar qual foi pressionado_
+_Comparar os vetores a cada jogada_
+_Contar o tempo limite para repetir a sequência de acordo com a dificuldade_
