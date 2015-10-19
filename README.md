@@ -59,25 +59,28 @@ Somente serão atribuídos pontos extras ao trabalho se a nota original for maio
 #Como vamos fazer?
 4 botões (obvio hahaha)
 
-- [ ] Repita a sequência  
+- [ ] ###Repita a sequência  
 *Existe um limite para as jogadas ou o jogo continua até o jogador errar?!*  
 * Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
 	* Armazena a sequência random
 	* Auxiliar que armazena a sequência de jogada  
+
 _Alterar o botão para indicar qual foi pressionado_  
 _Comparar os vetores a cada jogada_  
 
-- [ ] Crie sua própria sequência  
+- [ ] ###Crie sua própria sequência  
 * Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
 	* Armazena a sequência random
 	* Auxiliar que armazena a sequência de jogada  
+
 _Alterar o botão para indicar qual foi pressionado_  
 _Comparar os vetores a cada jogada_  
 
-- [ ] Repita a sequência com tempo limitado ao tamanho máximo da sequencia em segundos  
+- [ ] ###Repita a sequência com tempo limitado ao tamanho máximo da sequencia em segundos  
 * Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
 	* Armazena a sequência random
-	* Auxiliar que armazena a sequência de jogada
-_Alterar o botão para indicar qual foi pressionado_  
+	* Auxiliar que armazena a sequência de jogada  
+
+_Alterar o botão para indicar qual foi pressionado_    
 _Comparar os vetores a cada jogada_  
 _Contar o tempo limite para repetir a sequência de acordo com a dificuldade_  
