@@ -3,7 +3,7 @@
 ####Enunciado
 Neste trabalho, é pedido aos alunos que programem uma versão simplificada do brinquedo Genius, utilizando obrigatoriamente a linguagem Java.
 
-![](http://papodebem.com/wp-content/uploads/2014/09/Anos-80-Genius.jpg)
+![](http://thumbs.buscape.com.br/jogos-diversos/estrela-genius_200x200-PU68158_1.jpg)
 
 ####Como se joga?
 O brinquedo Genius é um jogo para um único jogador, este foi o primeiro jogo eletrônico vendido no Brasil. O objetivo do jogo é repetir, sem erros, a sequência de luzes e cores apresentada pelo brinquedo, que possui quatro botões de cores diferentes. A cada rodada, a sequência apresentada pelo brinquedo aumenta até atingir um valor máximo. Existem 3 tipos de jogos:  
