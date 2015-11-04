@@ -70,8 +70,8 @@ _Comparar os vetores a cada jogada_
 
 - [ ] Crie sua própria sequência  
 * Dois vetores de N posições (tamanho é informado de acordo com a dificuldade)
-	* Armazena a sequência random??
-	* O Jogador cria a sequencia e ela é armazenada no banco de dados.
+	* Armazena a sequência criada pelo jogados
+		* O Jogador cria a sequencia e ela é armazenada no banco de dados.
 	* Auxiliar que armazena a sequência de jogada  
 
 _Alterar o botão para indicar qual foi pressionado_  
