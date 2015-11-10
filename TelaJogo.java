@@ -4,21 +4,24 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.Random;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
-import com.sun.glass.events.MouseEvent;
-import com.sun.prism.Image;
+
 
 public class TelaJogo extends JFrame implements ActionListener {
+	private static final long serialVersionUID = 1L;
 	Botao[] botoes = new Botao[4];
 	int vetAux[] = new int[8];
 	int vetCorR[] = new int[8];
 	public static JPanel jogo;
 	public static Random gerador = new Random();
+	//ImageIcon img = new ImageIcon("/bt-azul.png");
 
 	JFrame frameJogo = new JFrame();
 
