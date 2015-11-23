@@ -29,8 +29,8 @@ public class Menu extends JFrame implements ActionListener {
 
 	// declaração de variaveis
 	private static final long serialVersionUID = 1L;
-	private JPanel jpTotalMenu, jpCentralMenu, jpLateral, jpLateral2, jpTopMenu;
-	private JLabel jlNome, jlRodape;
+	private JPanel jpTotalMenu, jpCentralMenu, jpTopMenu;
+	private JLabel jlNome;
 	private Botao[] botao = new Botao[7];
 
 	// criando o frame para o menu
@@ -52,15 +52,11 @@ public class Menu extends JFrame implements ActionListener {
 		// configurando layouts dos JPanels
 		jpTotalMenu = new JPanel(new BorderLayout());
 		jpCentralMenu = new JPanel(new FlowLayout());
-		jpLateral = new JPanel(new GridLayout(4, 1)); // tirar
-		jpLateral2 = new JPanel(new GridLayout(4, 1)); // tirar
 		jpTopMenu = new JPanel(new FlowLayout());
 
 		// adicionando JPanels no frame
 		frameMenu.add(jpTotalMenu);
 		jpTotalMenu.add(jpCentralMenu, BorderLayout.CENTER);
-		jpTotalMenu.add(jpLateral, BorderLayout.EAST);
-		jpTotalMenu.add(jpLateral2, BorderLayout.WEST);
 		jpTotalMenu.add(jpTopMenu, BorderLayout.NORTH);
 
 		// area NORTH do frameMenu
@@ -84,16 +80,6 @@ public class Menu extends JFrame implements ActionListener {
 		botao[3].setText("RANKING");
 		botao[4].setText("AJUDA");
 		botao[5].setText("SAIR");
-
-		// panic button - tem que arrumar
-		botao[6].setBorder(null);
-		botao[6].setPreferredSize(new Dimension(3, 80));
-		jpLateral2.add(botao[6]);
-
-		// rodape
-		jlRodape = new JLabel("Have fun =)");
-		jpTotalMenu.add(jlRodape, BorderLayout.SOUTH);
-		jlRodape.setHorizontalAlignment(SwingConstants.CENTER);
 	}
 
 	public void actionPerformed(ActionEvent e) {
