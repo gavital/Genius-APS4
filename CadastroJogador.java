@@ -2,14 +2,15 @@
  * Tela inicial para cadastro do jogador
  *******************************************/
 
-import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
+import java.awt.FlowLayout;
+
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.JButton;
 import javax.swing.JTextField;
+import javax.swing.JLabel;
 
 public class CadastroJogador extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 1L;
